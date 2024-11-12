@@ -22,7 +22,11 @@ LGU Discord
 https://discord.com/invite/wF3zJPDVQg
 
 
+
+
+
 Info for nerds
+
 
 1. This only installs on 64 bit systems, since 32 bit Windows hasn't existed since the early days of 10 and also doesn't have a SysWOW64 folder
 2. If any of the .OCX files are already present, it doesn't touch or overwrite them - it only digitally signs, sets the system file flag, and registers them (regsvr32 registration)
