@@ -31,19 +31,35 @@ Info for nerds
 5. I'm fairly certain that the Visual Basic 4.0, 5.0, 6.0 runtimes are not the only dependencies this requires, but I've had a few other people test it with minimal (less than 5) errors out of 145 files - these registration errors are because there's a companion .DLL for the .OCX missing in C:\Windows\SysWOW64
 6. I'm aware that people know how to fix .OCX errors already, I just don't think that anyone has provided a comprehensive fix like this for pretty much all of them
 7. If you really want to, you can track down all the components of RWGD and install them rather than installing it - here's the contents of RWGD
+
    • DirectInput Mapper (Microsoft)
+
    • DirectX 8.0 Redistributable (Microsoft)
+
    • DirectX 8.1 Redistributable (Microsoft)
+
    • DirectX 9 June 2010 Redistributable (Microsoft)
+
    • _inmm.dll v2.3.0.8 - cryo.jp/_inmm
+
    • .NET 1.1 Redistributable (Microsoft)
+
    • .NET 4.0 SlimDX Redistributable (Microsoft)
+
    • OpenAL v1.1 - openal.org
+
    • RAD Video Tools - radgametools.com/bnkdown.htm
+
    • Visual Basic 4.0 Redistributable (Microsoft)
+
    • Visual Basic 5.0 Redistributable (Microsoft)
+
    • Visual Basic 6.0 Runtime Plus by rizalmart - sourceforge.net/u/rizalmart
+
    • Visual C++ Redistributables [2005 thru 2022 - x86/x64] (Microsoft)
+
    • Windows Media Source Filter (DirectShow Codec) by mrpenguinb - community.pcgamingwiki.com/profile/3946-mrpenguinb
+
    • WinG (Microsoft)
+
    • WinG32 (Microsoft)
