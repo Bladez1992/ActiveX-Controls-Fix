@@ -32,7 +32,7 @@ Info for nerds
 2. If any of the .OCX files are already present, it doesn't touch or overwrite them - it only digitally signs, sets the system file flag, and registers them (regsvr32 registration)
 3. It doesn't remove or uninstall any of the .OCX files if you uninstall it - this would be dangerous because I believe a small amount of these are required for Windows' operation even still today
 4. The way my installer creation program (Caphyon's Advanced Installer 16.3) works, I had to have one file in a program directory, so there's a dummy .txt file installed to C:\Program Files\ActiveX Controls Fix - coincidentally this is the only thing that actually gets removed when you "uninstall" this fix
-5. I'm fairly certain that the Visual Basic 4.0, 5.0, 6.0 runtimes are not the only dependencies this requires, but I've had a few other people test it with minimal (less than 5) errors out of 145 files - these registration errors are because there's a companion .DLL for the .OCX missing in C:\Windows\SysWOW64
+5. I'm fairly certain that the Visual Basic 4.0, 5.0, 6.0 runtimes are not the only dependencies this requires, but I've had a few other people test it after installing RWGD with minimal (less than 5, zero on some systems) errors out of 145 files - these registration errors are because there's a companion .DLL for the .OCX missing in C:\Windows\SysWOW64
 6. I'm aware that people know how to fix .OCX errors already, I just don't think that anyone has provided a comprehensive fix like this for pretty much all of them
 7. If you really want to, you can track down all the components of RWGD and install them rather than installing it - here's the contents of RWGD
 
