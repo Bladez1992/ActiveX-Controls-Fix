@@ -2,6 +2,7 @@
 An effort to fix ActiveX errors on Windows 10 + 11
 
 This fix contains 145 ActiveX Controls (.OCX files) that are missing or unregistered on Windows 10 and 11. These files are installed to 
+
 C:\Windows\SysWOW64
 
 These .OCX files will not be removed or unregistered if you uninstall this fix, many of them are present in some form already and only need to be registered. This installer accounts for that and adjusts which files it installs accordingly.
