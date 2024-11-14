@@ -1,4 +1,6 @@
 # ActiveX Controls Fix
+![ActiveX .OCX Error Example](https://cdn.discordapp.com/attachments/865978250643505182/1305851543748218932/image.png?ex=673682c5&is=67353145&hm=2714959bd78a943da3a6400b742aaaca58e24ba59b3115913a56d574e579d698&)
+
 An effort to fix ActiveX errors on Windows 10 + 11
 
 This fix contains 147 ActiveX Controls (.OCX files) that are missing or unregistered on Windows 10 and 11. These files are installed to 
